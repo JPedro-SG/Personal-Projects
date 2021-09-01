@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  background-color: #0C9D72;
+  padding: 1rem 1rem .5rem 1rem;
+  display: flex;
+  justify-content: center;
+  /* flex: 0 1 auto; */
+  /* The above is shorthand for:
+   flex-grow: 0,
+   flex-shrink: 1,
+   flex-basis: auto
+   */
+}
+
+
+input {
+  border-radius: .3rem;
+  border: 0.1rem solid #CFCFD2;
+  font-size: 1rem;
+  padding: .4em;
+  /* outline: 0.1rem solid gray; */
+}
+
+button {
+  margin-left: .5rem;
+  padding: .5rem 1.8em;
+  border-radius: .3rem;
+  border: none;
+  color: white;
+  background-color: #F3628D;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .25s;
+  box-shadow: 0rem .1rem .0rem hsla(342, 86%, 67%, 0.82);
+}
+
+button:hover {
+  background-color: #f5477b;
+
+}
+
+.msg {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+  font-size: 10rem;
+  text-align: center;
+  /* justify-content: center; */
+  opacity: .3;
+  margin: auto 0;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 87.5rem;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  
+  gap: 2rem;
+}
+
+.card {
+  width: 23rem;
+  /* width: 100%; */
+  background-color: #FEEFF4;
+  padding: 1em;
+  border-radius: .1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+  font-size: x-small;
+  margin: .2rem 0 .8rem 0;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+a {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  /* color: green; */
+}
+
+a:hover {
+  text-decoration: underline;
+}
